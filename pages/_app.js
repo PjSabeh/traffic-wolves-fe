@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 
 function MyApp({ Component, pageProps }) {
   const [isShowingModal, setShowingModal] = useState(null);
+  const [isShowingErrorMessage, setIsShowingErrorMessage] = useState(null);
 
   useEffect(() => {
     window.addEventListener("load", setShowingModal(true));
@@ -17,7 +18,12 @@ function MyApp({ Component, pageProps }) {
         <button onClick={() => setShowingModal(false)}>
           With this button we desactivate it
         </button>
-        <button>With this one we do not</button>
+        <button onClick={() => setIsShowingErrorMessage(true)}>
+          With this one we do not
+        </button>
+        {isShowingErrorMessage
+          ? "Para acceder a este sitio tienes que ser mayor de edad"
+          : ""}
       </div>
     );
     //
