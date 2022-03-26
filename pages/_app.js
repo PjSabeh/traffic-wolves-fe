@@ -13,14 +13,16 @@ function MyApp({ Component, pageProps }) {
   if (isShowingModal) {
     //
     return (
-      <div>
+      <div className="first-modal">
         <h2>Here my Modal is active</h2>
-        <button onClick={() => setShowingModal(false)}>
-          With this button we desactivate it
-        </button>
-        <button onClick={() => setIsShowingErrorMessage(true)}>
-          With this one we do not
-        </button>
+        <div className="modal-btn-div">
+          <button onClick={() => setShowingModal(false)}>
+            With this button we desactivate it
+          </button>
+          <button onClick={() => setIsShowingErrorMessage(true)}>
+            With this one we do not
+          </button>
+        </div>
         {isShowingErrorMessage
           ? "Para acceder a este sitio tienes que ser mayor de edad"
           : ""}
