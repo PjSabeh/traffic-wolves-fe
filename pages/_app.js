@@ -1,6 +1,7 @@
 import "../styles/globals.css";
 import Layout from "../components/Layout";
 import React, { useEffect, useState } from "react";
+import Image from "next/image";
 
 function MyApp({ Component, pageProps }) {
   const [isShowingModal, setShowingModal] = useState(null);
@@ -15,6 +16,7 @@ function MyApp({ Component, pageProps }) {
     return (
       <div className="first-modal">
         <h2>Here my Modal is active</h2>
+        <Image src="/vercel.svg" alt="Modal Image" width={400} height={400} />
         <div className="modal-btn-div">
           <button onClick={() => setShowingModal(false)}>
             With this button we desactivate it
