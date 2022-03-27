@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }) {
         <div className="first-modal">
           <div className="modal-title">
             <h1>Bienvenido a Se Habla Casino</h1>
-            <Image src="/+18icon.jpg" alt="+18 icon" width={98} height={98} />
+            <Image src="/+18icon.png" alt="+18 icon" width={98} height={98} />
           </div>
           <p>Por favor confirma que eres 18+ años para acceder</p>
 
