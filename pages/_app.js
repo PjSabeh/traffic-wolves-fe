@@ -9,25 +9,48 @@ function MyApp({ Component, pageProps }) {
 
   useEffect(() => {
     window.addEventListener("load", setShowingModal(true));
+    return () => {
+      window.removeEventListener("load", setShowingModal(true));
+    };
   }, []);
 
   if (isShowingModal) {
     //
     return (
-      <div className="first-modal">
-        <h2>Here my Modal is active</h2>
-        <Image src="/vercel.svg" alt="Modal Image" width={400} height={400} />
-        <div className="modal-btn-div">
-          <button onClick={() => setShowingModal(false)}>
-            With this button we desactivate it
-          </button>
-          <button onClick={() => setIsShowingErrorMessage(true)}>
-            With this one we do not
-          </button>
+      <div className="modal-section">
+        <div className="first-modal">
+          <div className="modal-title">
+            <h1>Bienvenido a Se Habla Casino</h1>
+            <Image src="/+18icon.jpg" alt="+18 icon" width={98} height={98} />
+          </div>
+          <p>Por favor confirma que eres 18+ años para acceder</p>
+
+          <Image src="/vercel.svg" alt="Modal Image" width={400} height={400} />
+
+          <div className="modal-btn-div">
+            <button
+              className="modal-btn-yes"
+              onClick={() => setShowingModal(false)}
+            >
+              Si, tengo 18+
+            </button>
+
+            <button
+              className="modal-btn-no"
+              onClick={() => setIsShowingErrorMessage(true)}
+            >
+              No, no lo soy
+            </button>
+          </div>
+
+          {isShowingErrorMessage ? (
+            <p className="error-msg">
+              Para acceder a este sitio tienes que ser mayor de edad
+            </p>
+          ) : (
+            ""
+          )}
         </div>
-        {isShowingErrorMessage
-          ? "Para acceder a este sitio tienes que ser mayor de edad"
-          : ""}
       </div>
     );
     //
