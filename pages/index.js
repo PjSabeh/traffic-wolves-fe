@@ -64,7 +64,13 @@ export default function Home() {
         </div>
 
         <div className={styles.fixedCard}>
-          here is where the fixed card will appear
+          <div className={styles.fixedBox}>
+            <form>
+              <input type="text" placeholder="Nombre" />
+              <input type="email" placeholder="Email" />
+              <input type="number" placeholder="Movil" />
+            </form>
+          </div>
         </div>
       </div>
     </div>
