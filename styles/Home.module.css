@@ -94,9 +94,53 @@
 
 /** Here we have the fixed box styles **/
 .fixedBox {
-  margin-top: 10vh;
-  background-color: aqua;
+  margin-top: 4vh;
   width: 72%;
+  background-color: aqua;
+}
+
+.subscritionForm {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.8vh;
+  margin: 0 auto;
+  width: 60%;
+  border: 2px solid black;
+  border-radius: 25px 25px;
+}
+
+.formHeader {
+  text-align: center;
+}
+
+.formInput {
+  border-radius: 25px 25px;
+  padding-left: 0.4vw;
+  height: 4vh;
+}
+.formBtn {
+  margin-left: 60%;
+  width: 40%;
+  padding: 8px;
+  border-radius: 25px;
+  border: 1px solid rgba(37, 97, 27, 1);
+  background-color: rgba(37, 97, 27, 1);
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.formBtn:hover {
+  transform: translateY(-5px);
+}
+
+.fixedPromotedCasinos {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 0.4vw;
+  width: 80%;
+  border: 1px solid black;
 }
 
 /** Media Queries Start Here **/

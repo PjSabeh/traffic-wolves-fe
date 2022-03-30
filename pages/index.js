@@ -65,11 +65,78 @@ export default function Home() {
 
         <div className={styles.fixedCard}>
           <div className={styles.fixedBox}>
-            <form>
-              <input type="text" placeholder="Nombre" />
-              <input type="email" placeholder="Email" />
-              <input type="number" placeholder="Movil" />
+            <form className={styles.subscritionForm}>
+              <h3 className={styles.formHeader}>
+                Subscribete para recibir descuentos y bonos
+              </h3>
+              <input
+                className={styles.formInput}
+                type="text"
+                placeholder="Nombre"
+              />
+              <input
+                className={styles.formInput}
+                type="email"
+                placeholder="Email"
+              />
+              <input
+                className={styles.formInput}
+                type="number"
+                placeholder="Movil"
+              />
+              <button className={styles.formBtn} type="submit">
+                Suscribirse
+              </button>
             </form>
+
+            <div className={styles.fixedPromotedCasinosBox}>
+              <h2>Top 4 casinos</h2>
+
+              {/** First Promoted Casino **/}
+              <div className={styles.fixedPromotedCasinos}>
+                <Image
+                  src="/favicon.ico"
+                  className={styles.casinoLogo}
+                  width={48}
+                  height={48}
+                  alt="Mega promoted casino"
+                />
+                <h3>Casino Pagando Duro</h3>
+                <a className={styles.juegaCTA} href="#">
+                  Juega ahora!
+                </a>
+              </div>
+
+              {/** Second Promoted Casino **/}
+              <div className={styles.fixedPromotedCasinos}>
+                <Image
+                  src="/favicon.ico"
+                  className={styles.casinoLogo}
+                  width={48}
+                  height={48}
+                  alt="Mega promoted casino"
+                />
+                <h3>Casino Pagando Duro</h3>
+                <a className={styles.juegaCTA} href="#">
+                  Juega ahora!
+                </a>
+              </div>
+
+              {/** Third Promoted Casino **/}
+              <div className={styles.fixedPromotedCasinos}>
+                <Image
+                  src="/favicon.ico"
+                  className={styles.casinoLogo}
+                  width={48}
+                  height={48}
+                  alt="Mega promoted casino"
+                />
+                <h3>Casino Pagando Duro</h3>
+                <a className={styles.juegaCTA} href="#">
+                  Juega ahora!
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
