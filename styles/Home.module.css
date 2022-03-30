@@ -22,23 +22,13 @@
 
 .casinosAndCard {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100vw;
-}
-
-.promotedCasinos {
-  width: 60%;
-  display: flex;
   flex-direction: column;
 }
-
-.fixedCard {
+.promotedCasinos {
+  width: 100vw;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  align-items: flex-start;
-  width: 40%;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .promotedCasinosHeader {
@@ -50,18 +40,16 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  column-gap: 1.6vw;
+  column-gap: 4vw;
   margin: 2.4vh auto;
-  height: 20vh;
+  height: 24vh;
   width: 90%;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
 .casinoLogo {
   border-radius: 50px 50px;
 }
-
 .casinoPerks {
   display: flex;
   flex-direction: column;
@@ -92,10 +80,9 @@
   border: 1px solid rgb(241, 92, 100);
 }
 
-/** Here we have the fixed box styles **/
 .fixedBox {
-  margin-top: 4vh;
-  width: 72%;
+  margin: 0 auto;
+  width: 90vw;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 10px 10px;
 }
@@ -105,7 +92,7 @@
   flex-direction: column;
   row-gap: 0.8vh;
   margin: 0 auto;
-  width: 60%;
+  width: 80%;
 }
 
 .formHeader {
@@ -126,10 +113,6 @@
   background-color: rgba(37, 97, 27, 1);
   color: rgb(255, 255, 255);
   font-weight: 700;
-}
-
-.formBtn:hover {
-  transform: translateY(-5px);
 }
 
 .fixedPromotedCasinosBox {
@@ -157,3 +140,122 @@
 }
 
 /** Media Queries Start Here **/
+
+@media (min-width: 800px) {
+  .casinosAndCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+  }
+
+  .promotedCasinos {
+    overflow-y: scroll;
+  }
+
+  .fixedCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100vw;
+  }
+
+  .promotedCasinoBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1.6vw;
+    height: 20vh;
+  }
+
+  .casinoCTAs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.6vh;
+  }
+
+  .juegaCTA,
+  .analisisCTA {
+    text-decoration: none;
+    border-radius: 25px 25px;
+    text-align: center;
+  }
+  .juegaCTA {
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(241, 92, 100);
+  }
+
+  .analisisCTA {
+    padding: 6px;
+    color: rgb(241, 92, 100);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(241, 92, 100);
+  }
+
+  /** Here we have the fixed box styles **/
+  .fixedBox {
+    margin-top: 4vh;
+    width: 72%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px 10px;
+  }
+
+  .subscritionForm {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.8vh;
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  .formHeader {
+    text-align: center;
+  }
+
+  .formInput {
+    border-radius: 25px 25px;
+    padding-left: 0.4vw;
+    height: 4vh;
+  }
+  .formBtn {
+    margin-left: 60%;
+    width: 40%;
+    padding: 8px;
+    border-radius: 25px;
+    border: 1px solid rgba(37, 97, 27, 1);
+    background-color: rgba(37, 97, 27, 1);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+  }
+
+  .formBtn:hover {
+    transform: translateY(-5px);
+  }
+
+  .fixedPromotedCasinosBox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 2.4vh;
+  }
+
+  .fixedHeader {
+    margin: 0.8vh 0 0.8vh 1.6vw;
+  }
+
+  .fixedPromotedCasinos {
+    height: 16vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 0.4vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 10px 10px;
+  }
+}

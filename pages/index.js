@@ -183,6 +183,8 @@ export default function Home() {
           </div>
         </div>
 
+        {/*         Below the fixed card begins    */}
+
         <div className={styles.fixedCard}>
           <div className={styles.fixedBox}>
             <form className={styles.subscritionForm}>
@@ -202,7 +204,7 @@ export default function Home() {
               <input
                 className={styles.formInput}
                 type="number"
-                placeholder="Movil"
+                placeholder="Movil (opcional)"
               />
               <button className={styles.formBtn} type="submit">
                 Suscribirse
@@ -210,7 +212,7 @@ export default function Home() {
             </form>
 
             <div className={styles.fixedPromotedCasinosBox}>
-              <h2 className={styles.fixedHeader}>Top 4 casinos</h2>
+              <h2 className={styles.fixedHeader}>Top 3 casinos</h2>
 
               {/** First Promoted Casino **/}
               <div className={styles.fixedPromotedCasinos}>
@@ -243,21 +245,6 @@ export default function Home() {
               </div>
 
               {/** Third Promoted Casino **/}
-              <div className={styles.fixedPromotedCasinos}>
-                <Image
-                  src="/favicon.ico"
-                  className={styles.casinoLogo}
-                  width={48}
-                  height={48}
-                  alt="Mega promoted casino"
-                />
-                <h3>Casino Pagando Duro</h3>
-                <a className={styles.juegaCTA} href="#">
-                  Juega ahora!
-                </a>
-              </div>
-
-              {/** Fourth Promoted Casino **/}
               <div className={styles.fixedPromotedCasinos}>
                 <Image
                   src="/favicon.ico"
