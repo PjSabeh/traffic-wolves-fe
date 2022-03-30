@@ -61,6 +61,126 @@ export default function Home() {
               </a>
             </div>
           </div>
+
+          <div className={styles.promotedCasinoBox}>
+            <Image
+              className={styles.casinoLogo}
+              src="/favicon.ico"
+              alt="Casino Logo"
+              width={48}
+              height={48}
+            />
+            <h3>Casino Manson</h3>
+
+            <div className={styles.casinoPerks}>
+              <ul>
+                <li>Diseño muy atractivo</li>
+                <li>Gran cantidad de metodos de pago</li>
+                <li>Altos limites de retiro</li>
+                <li>Excelente equipo de atencion al cliente</li>
+              </ul>
+            </div>
+
+            <div className={styles.casinoCTAs}>
+              <a className={styles.juegaCTA} href="#">
+                Juega ahora!
+              </a>
+
+              <a className={styles.analisisCTA} href="#">
+                Analisis del casino
+              </a>
+            </div>
+          </div>
+
+          <div className={styles.promotedCasinoBox}>
+            <Image
+              className={styles.casinoLogo}
+              src="/favicon.ico"
+              alt="Casino Logo"
+              width={48}
+              height={48}
+            />
+            <h3>Casino Manson</h3>
+
+            <div className={styles.casinoPerks}>
+              <ul>
+                <li>Diseño muy atractivo</li>
+                <li>Gran cantidad de metodos de pago</li>
+                <li>Altos limites de retiro</li>
+                <li>Excelente equipo de atencion al cliente</li>
+              </ul>
+            </div>
+
+            <div className={styles.casinoCTAs}>
+              <a className={styles.juegaCTA} href="#">
+                Juega ahora!
+              </a>
+
+              <a className={styles.analisisCTA} href="#">
+                Analisis del casino
+              </a>
+            </div>
+          </div>
+
+          <div className={styles.promotedCasinoBox}>
+            <Image
+              className={styles.casinoLogo}
+              src="/favicon.ico"
+              alt="Casino Logo"
+              width={48}
+              height={48}
+            />
+            <h3>Casino Manson</h3>
+
+            <div className={styles.casinoPerks}>
+              <ul>
+                <li>Diseño muy atractivo</li>
+                <li>Gran cantidad de metodos de pago</li>
+                <li>Altos limites de retiro</li>
+                <li>Excelente equipo de atencion al cliente</li>
+              </ul>
+            </div>
+
+            <div className={styles.casinoCTAs}>
+              <a className={styles.juegaCTA} href="#">
+                Juega ahora!
+              </a>
+
+              <a className={styles.analisisCTA} href="#">
+                Analisis del casino
+              </a>
+            </div>
+          </div>
+
+          <div className={styles.promotedCasinoBox}>
+            <Image
+              className={styles.casinoLogo}
+              src="/favicon.ico"
+              alt="Casino Logo"
+              width={48}
+              height={48}
+            />
+            <h3>Casino Manson</h3>
+
+            <div className={styles.casinoPerks}>
+              <ul>
+                <li>Diseño muy atractivo</li>
+                <li>Gran cantidad de metodos de pago</li>
+                <li>Altos limites de retiro</li>
+                <li>Excelente equipo de atencion al cliente</li>
+              </ul>
+            </div>
+
+            <div className={styles.casinoCTAs}>
+              <a className={styles.juegaCTA} href="#">
+                Juega ahora!
+              </a>
+
+              <a className={styles.analisisCTA} href="#">
+                Analisis del casino
+              </a>
+            </div>
+          </div>
         </div>
 
         <div className={styles.fixedCard}>
@@ -90,7 +210,7 @@ export default function Home() {
             </form>
 
             <div className={styles.fixedPromotedCasinosBox}>
-              <h2>Top 4 casinos</h2>
+              <h2 className={styles.fixedHeader}>Top 4 casinos</h2>
 
               {/** First Promoted Casino **/}
               <div className={styles.fixedPromotedCasinos}>
@@ -123,6 +243,21 @@ export default function Home() {
               </div>
 
               {/** Third Promoted Casino **/}
+              <div className={styles.fixedPromotedCasinos}>
+                <Image
+                  src="/favicon.ico"
+                  className={styles.casinoLogo}
+                  width={48}
+                  height={48}
+                  alt="Mega promoted casino"
+                />
+                <h3>Casino Pagando Duro</h3>
+                <a className={styles.juegaCTA} href="#">
+                  Juega ahora!
+                </a>
+              </div>
+
+              {/** Fourth Promoted Casino **/}
               <div className={styles.fixedPromotedCasinos}>
                 <Image
                   src="/favicon.ico"
