@@ -52,7 +52,12 @@ export default function Home() {
             </div>
 
             <div className={styles.casinoCTAs}>
-              <a className={styles.juegaCTA} href="#">
+              <a
+                className={styles.juegaCTA}
+                href="https://app.affiliabet.com/v/5551"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 Juega ahora!
               </a>
 
