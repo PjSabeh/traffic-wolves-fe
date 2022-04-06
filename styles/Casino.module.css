@@ -5,17 +5,17 @@
 
 .textDiv {
   margin: 0 auto;
-  width: 100%;
-  padding: 10vw;
+  width: 90%;
+
   display: flex;
   flex-direction: column;
 }
 
 .textContainer {
   margin: 2.4vh 0;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
 }
 
 .textHead {
@@ -23,11 +23,21 @@
 }
 
 .textP {
-  margin: 0.8vh 0;
+  margin: 1.6vh 0;
   font-size: 18px;
+  text-align: center;
+}
+.seoH2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.listItem {
+  margin-left: 8vw;
+  font-size: 1.6rem;
+  font-weight: 700;
 }
 
-.fixedBox {
+.fixedDiv {
   margin: 0 auto;
   width: 90%;
 
@@ -86,4 +96,50 @@
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   border-radius: 10px 10px;
+}
+
+/* Media Queries Start Here */
+
+@media (min-width: 800px) {
+  .hero {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .fixedDiv {
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px 10px;
+    height: fit-content;
+    position: fixed;
+    background: rgb(255, 255, 255);
+    padding-bottom: 20vh;
+  }
+
+  .textDiv {
+    width: 60%;
+    margin-left: 8vw;
+  }
+  .textP {
+    margin: 2.4 1.6;
+    font-size: 18px;
+    text-align: justify;
+  }
+  .juegaCTA {
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(241, 92, 100);
+    text-decoration: none;
+    border-radius: 25px 25px;
+    cursor: grab;
+  }
+  .formBtn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 15px rgba(37, 97, 27, 0.5);
+    cursor: grab;
+  }
+  .juegaCTA:hover {
+    box-shadow: 0px 15px 20px rgba(241, 92, 100, 0.5);
+    transform: translateY(-8px);
+  }
 }

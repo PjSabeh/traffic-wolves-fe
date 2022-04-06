@@ -70,10 +70,11 @@ function casinos() {
               esto en cuenta, se ofrecen a los jugadores varios métodos de pago.
               Los métodos de pago de casinos mas reconocidos son los siguientes:
               tarjetas bancarias, transferencias, monederos electrónicos, Paypal
-              o incluso criptomonedas. Un <h2>casino online con PayPal</h2> es
-              una ventaja a tener en cuenta a la hora de retirar porque a
-              diferencia de la transferencia bancaria o la tarjeta suele ser
-              procesado en unos instantes.
+              o incluso criptomonedas. Un{" "}
+              <h2 className={styles.seoH2}>casino online con PayPal</h2> es una
+              ventaja a tener en cuenta a la hora de retirar porque a diferencia
+              de la transferencia bancaria o la tarjeta suele ser procesado en
+              unos instantes.
             </p>
             <p className={styles.textP}>
               Es esencial verificar primero las opciones de retiro. Algunos
@@ -96,8 +97,9 @@ function casinos() {
               normal es querer un mínimo de garantía de que no habrá
               malversación de datos personales o de fondos. Por esta razón
               querrás asegurarte de que
-              <h2>el mejor casino online</h2> de tu lista, garantice la
-              seguridad de los datos y el dinero de los jugadores.
+              <h2 className={styles.seoH2}>el mejor casino online</h2> de tu
+              lista, garantice la seguridad de los datos y el dinero de los
+              jugadores.
             </p>
             <p className={styles.textP}>
               Los casinos digitales más seguros y confiables usan un sistema de
@@ -109,9 +111,9 @@ function casinos() {
             <li className={styles.listItem}>Que tenga auditorias externas:</li>
             <p className={styles.textP}>
               En el proceso de auditoria se evalúa
-              <h2>como funciona casino online</h2> y en caso de que no trabaje
-              como corresponde se pueda a dar de baja la licencia impidiendo que
-              pueda seguir operando
+              <h2 className={styles.seoH2}>como funciona casino online</h2> y en
+              caso de que no trabaje como corresponde se pueda a dar de baja la
+              licencia impidiendo que pueda seguir operando
             </p>
 
             <li className={styles.listItem}>
@@ -124,14 +126,16 @@ function casinos() {
               pueda alterar los datos.
             </p>
 
-            <li> className={styles.listItem}Servicio al Cliente</li>
+            <li className={styles.listItem}> Servicio al Cliente</li>
             <p className={styles.textP}>
               Este es un criterio muy importante al seleccionar un
-              <h2>casino online para ganar dinero real</h2>. Es raro estar en
-              sitios de casinos en línea y no tener ningún inconveniente, es
-              aquí donde cobra mayor importancia un buen equipo de servicio al
-              cliente, sobre todo si estas en medio de una apuesta y quieres
-              resolver el inconveniente lo antes posible.
+              <h2 className={styles.seoH2}>
+                casino online para ganar dinero real
+              </h2>
+              . Es raro estar en sitios de casinos en línea y no tener ningún
+              inconveniente, es aquí donde cobra mayor importancia un buen
+              equipo de servicio al cliente, sobre todo si estas en medio de una
+              apuesta y quieres resolver el inconveniente lo antes posible.
             </p>
             <p className={styles.textP}>
               En tal caso, los asesores de clientes están disponibles para que
@@ -147,7 +151,7 @@ function casinos() {
             Sin dudas el mundo de las apuestas digitales es apasionante, pero
             hay muchos detalles cómo los que antes menciono, que debes tener muy
             en cuenta si quieres tener una buena experiencia y
-            <h2>ganar dinero en apuestas</h2>
+            <h2 className={styles.seoH2}>ganar dinero en apuestas</h2>
           </p>
         </div>
       </div>

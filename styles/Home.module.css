@@ -149,6 +149,9 @@
 /** Media Queries Start Here **/
 
 @media (min-width: 800px) {
+  .homeImg {
+    width: 72vw;
+  }
   .casinosAndCard {
     display: flex;
     flex-direction: row;
