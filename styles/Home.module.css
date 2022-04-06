@@ -5,7 +5,7 @@
 }
 
 .homeImg {
-  background: url("/homeImg.jpg");
+  background-image: url("/homeImg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 40vh;
@@ -159,7 +159,7 @@
   }
 
   .promotedCasinos {
-    height: 90vh;
+    height: 200vh;
     width: 60%;
     margin: 0;
     padding: 0;
@@ -172,7 +172,7 @@
     align-items: flex-start;
     width: 40%;
     padding: 0;
-    margin: 0;
+    margin-top: -40vh;
   }
 
   .promotedCasinoBox {
@@ -211,10 +211,13 @@
 
   /** Here we have the fixed box styles **/
   .fixedBox {
-    margin-top: 4vh;
-    width: 80%;
+    width: 400px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px 10px;
+    height: fit-content;
+    position: fixed;
+    background: rgb(255, 255, 255);
+    padding-bottom: 20vh;
   }
 
   .subscritionForm {
@@ -235,7 +238,7 @@
     height: 4vh;
   }
   .formBtn {
-    margin-left: 60%;
+    margin-left: 50%;
     width: 40%;
     padding: 8px;
     border-radius: 25px;

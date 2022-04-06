@@ -2,6 +2,7 @@ import "../styles/globals.css";
 import Layout from "../components/Layout";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
+import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
   const [isShowingModal, setShowingModal] = useState(null);
@@ -18,6 +19,7 @@ function MyApp({ Component, pageProps }) {
     //
     return (
       <div className="modal-section">
+        <Head></Head>
         <div className="first-modal">
           <div className="modal-title">
             <h1>Bienvenido a Se Habla Casino</h1>
