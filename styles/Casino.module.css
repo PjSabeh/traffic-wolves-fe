@@ -30,6 +30,7 @@
 .seoH2 {
   font-size: 18px;
   font-weight: 400;
+  display: inline;
 }
 .listItem {
   margin-left: 8vw;
@@ -114,16 +115,23 @@
     position: fixed;
     background: rgb(255, 255, 255);
     padding-bottom: 20vh;
+    margin-right: 1.6vw;
   }
 
   .textDiv {
     width: 60%;
     margin-left: 8vw;
   }
+  .textHead {
+    text-align: justify;
+  }
   .textP {
-    margin: 2.4 1.6;
+    margin: 2.4vh 1.6vw;
     font-size: 18px;
     text-align: justify;
+  }
+  .listItem {
+    margin-left: 1.6vw;
   }
   .juegaCTA {
     padding: 12px;

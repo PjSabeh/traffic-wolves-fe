@@ -70,7 +70,7 @@ function casinos() {
               esto en cuenta, se ofrecen a los jugadores varios métodos de pago.
               Los métodos de pago de casinos mas reconocidos son los siguientes:
               tarjetas bancarias, transferencias, monederos electrónicos, Paypal
-              o incluso criptomonedas. Un{" "}
+              o incluso criptomonedas. Un
               <h2 className={styles.seoH2}>casino online con PayPal</h2> es una
               ventaja a tener en cuenta a la hora de retirar porque a diferencia
               de la transferencia bancaria o la tarjeta suele ser procesado en
