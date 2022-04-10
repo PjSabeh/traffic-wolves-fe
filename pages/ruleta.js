@@ -28,11 +28,9 @@ function ruleta() {
             anteriores mientras practicaba con máquinas de movimiento y
             siguiendo su afición matemática. Por lo que seguro que te estarás
             preguntando
-            {'"'}
-            <h2 className={styles.seoH2}>¿Como jugar a la ruleta?</h2>
-            {'"'} Y lo primero que que tienes que tener claro es que es un juego
-            de probabilidades y que estas no cambiaran por más tiradas que
-            hagas.
+            <h2 className={styles.seoH2}>¿Como jugar a la ruleta?</h2>Y lo
+            primero que que tienes que tener claro es que es un juego de
+            probabilidades y que estas no cambiaran por más tiradas que hagas.
           </p>
         </div>
 
@@ -163,6 +161,70 @@ function ruleta() {
               </Table.Row>
             </Table.Body>
           </Table>
+        </div>
+
+        <div className={styles.textContainer}>
+          <h1 className={styles.textHead}>
+            ¿Qué variantes de ruletas existen?
+          </h1>
+          <p className={styles.textP}>
+            Existen varios tipos de ruleta de casino y cada una tiene una
+            particularidad que la diferencia a continuación te explico la
+            diferencia entre unas y otras.
+          </p>
+
+          <h2 className={styles.textHead}>
+            ¿Como jugar a la ruleta americana?
+          </h2>
+          <p className={styles.textP}>
+            Esta es una de las variantes más populares y la principal diferencia
+            está dada por la rueda de la ruleta la cual cuenta con un doble cero
+            a diferencia de la francesa y europea, pero esto solo aumenta las
+            probabilidades de que gane la casa un 5,2%
+          </p>
+
+          <h2 className={styles.textHead}>¿Como jugar a la ruleta Europea?</h2>
+          <p className={styles.textP}>
+            Esta es una gran opción si buscas una ruleta que tenga pocas
+            posibilidades de darle la ganancia a la casa, ya que aquí es del
+            2,7% la ruleta contiene números del 1 al 36 y solo 1 cero. El
+            jugador pueden apostar a números, colores, pares/impares entre
+            muchas posibilidades.
+          </p>
+
+          <h2 className={styles.textHead}>Ruleta francesa</h2>
+          <p className={styles.textP}>
+            Es muy similar a la Europea y se rige por dos reglas especiales. Una
+            de ellas es “la portage” que le da la posibilidad al apostador de
+            recuperar su apuesta si pierde una apuesta externa cuando la bola da
+            en el cero. La otra opción es {'"'}en prisión{'"'} te da la
+            oportunidad de recuperar todas tus apuestas si la bola aterriza en
+            cero. Esto hace que la probabilidad de la casa en un 1,35%
+          </p>
+
+          <h2 className={styles.textHead}>Ruleta múltiple</h2>
+          <p className={styles.textP}>
+            Esta es una gran opción si buscas una ruleta que tenga pocas
+            posibilidades de darle la ganancia a la casa, ya que aquí es del
+            2,7% la ruleta contiene números del 1 al 36 y solo 1 cero. El
+            jugador pueden apostar a números, colores, pares/impares entre
+            muchas posibilidades.
+          </p>
+
+          <h2 className={styles.textHead}>Ruleta en directo con crupier</h2>
+          <p className={styles.textP}>
+            Esta es sin dudas la opción más vistosa para aquellos que gustan de
+            jugar de manera lo más cercana posible a la realidad, ya que muestra
+            imágenes en vivo transmitidas de una de las mesas y da la
+            posibilidad de apostar sobre lo que ocurre en la partida.
+          </p>
+
+          <p className={styles.textP}>
+            A pesar de ser un juego aparentemente sencillo, la ruleta conquista
+            el corazón de jugadores alrededor de todo el mundo, siendo un juego
+            vibrante y demandado sin importar los años que pasen. Anímate a
+            probar tu suerte.
+          </p>
         </div>
       </div>
 

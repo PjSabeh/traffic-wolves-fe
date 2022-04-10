@@ -99,6 +99,15 @@
   border-radius: 10px 10px;
 }
 
+.juegaCTA {
+  padding: 12px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(241, 92, 100);
+  text-decoration: none;
+  border-radius: 25px 25px;
+  cursor: grab;
+}
+
 /* Media Queries Start Here */
 
 @media (min-width: 800px) {
