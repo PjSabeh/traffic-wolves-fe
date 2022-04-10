@@ -1,6 +1,8 @@
 import React from "react";
 import Head from "next/head";
+import Image from "next/image";
 import styles from "../styles/Ruleta.module.css";
+import { Table } from "semantic-ui-react";
 
 function ruleta() {
   return (
@@ -92,6 +94,152 @@ function ruleta() {
             la famosa Martingala: duplicar nuestra apuesta a color hasta
             finalmente ganar y recuperar lo perdido.
           </p>
+        </div>
+
+        <div className={styles.winChartDiv}>
+          <Table className={styles.table}>
+            <Table.Header>
+              <Table.Row className={styles.tableRow}>
+                <Table.HeaderCell className={styles.tableHead}>
+                  Tipos de Apuesta
+                </Table.HeaderCell>
+                <Table.HeaderCell className={styles.tableHead}>
+                  Retorno
+                </Table.HeaderCell>
+              </Table.Row>
+            </Table.Header>
+
+            <Table.Body>
+              <Table.Row className={styles.tableRow}>
+                <Table.Cell>Rojo/Negro</Table.Cell>
+                <Table.Cell className={styles.tableWin}>x2</Table.Cell>
+              </Table.Row>
+
+              <Table.Row className={styles.tableRow}>
+                <Table.Cell>Par/Impar</Table.Cell>
+                <Table.Cell className={styles.tableWin}>x2</Table.Cell>
+              </Table.Row>
+
+              <Table.Row className={styles.tableRow}>
+                <Table.Cell>Mitad Inferior/Superior</Table.Cell>
+                <Table.Cell className={styles.tableWin}>x2</Table.Cell>
+              </Table.Row>
+
+              <Table.Row className={styles.tableRow}>
+                <Table.Cell>Doble Docena / Doble Columna</Table.Cell>
+                <Table.Cell className={styles.tableWin}>x1.5</Table.Cell>
+              </Table.Row>
+
+              <Table.Row className={styles.tableRow}>
+                <Table.Cell>Docena o Columna</Table.Cell>
+                <Table.Cell className={styles.tableWin}>x3</Table.Cell>
+              </Table.Row>
+
+              <Table.Row className={styles.tableRow}>
+                <Table.Cell>Seisena</Table.Cell>
+                <Table.Cell className={styles.tableWin}>x6</Table.Cell>
+              </Table.Row>
+
+              <Table.Row className={styles.tableRow}>
+                <Table.Cell>
+                  Cuadro(4 números) o Esquina (números 0 a 3)
+                </Table.Cell>
+                <Table.Cell className={styles.tableWin}>x9</Table.Cell>
+              </Table.Row>
+
+              <Table.Row className={styles.tableRow}>
+                <Table.Cell>Transversal (línea)</Table.Cell>
+                <Table.Cell className={styles.tableWin}>x12</Table.Cell>
+              </Table.Row>
+
+              <Table.Row className={styles.tableRow}>
+                <Table.Cell>Caballo (2 números)</Table.Cell>
+                <Table.Cell className={styles.tableWin}>x18</Table.Cell>
+              </Table.Row>
+
+              <Table.Row className={styles.tableRow}>
+                <Table.Cell>Pleno (1 número)</Table.Cell>
+                <Table.Cell className={styles.tableWin}>x36</Table.Cell>
+              </Table.Row>
+            </Table.Body>
+          </Table>
+        </div>
+      </div>
+
+      <div className={styles.fixedDiv}>
+        <div className={styles.fixedBox}>
+          <form className={styles.subscritionForm}>
+            <h3 className={styles.formHeader}>
+              Subscribete para recibir descuentos y bonos
+            </h3>
+            <input
+              className={styles.formInput}
+              type="text"
+              placeholder="Nombre"
+            />
+            <input
+              className={styles.formInput}
+              type="email"
+              placeholder="Email"
+            />
+            <input
+              className={styles.formInput}
+              type="number"
+              placeholder="Movil (opcional)"
+            />
+            <button className={styles.formBtn} type="submit">
+              Suscribirse
+            </button>
+          </form>
+
+          <div className={styles.fixedPromotedCasinosBox}>
+            <h2 className={styles.fixedHeader}>Top 3 casinos</h2>
+
+            {/** First Promoted Casino **/}
+            <div className={styles.fixedPromotedCasinos}>
+              <Image
+                src="/favicon.ico"
+                className={styles.casinoLogo}
+                width={48}
+                height={48}
+                alt="Mega promoted casino"
+              />
+              <h3>Casino Pagando Duro</h3>
+              <a className={styles.juegaCTA} href="#">
+                Juega ahora!
+              </a>
+            </div>
+
+            {/** Second Promoted Casino **/}
+            <div className={styles.fixedPromotedCasinos}>
+              <Image
+                src="/favicon.ico"
+                className={styles.casinoLogo}
+                width={48}
+                height={48}
+                alt="Mega promoted casino"
+              />
+              <h3>Casino Pagando Duro</h3>
+              <a className={styles.juegaCTA} href="#">
+                Juega ahora!
+              </a>
+            </div>
+
+            {/** Third Promoted Casino **/}
+            <div className={styles.fixedPromotedCasinos}>
+              <Image
+                src="/favicon.ico"
+                className={styles.casinoLogo}
+                width={48}
+                height={48}
+                alt="Mega promoted casino"
+              />
+              <h3>Casino Pagando Duro</h3>
+              <a className={styles.juegaCTA} href="#">
+                Juega ahora!
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

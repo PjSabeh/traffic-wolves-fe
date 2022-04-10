@@ -99,6 +99,22 @@
   border-radius: 10px 10px;
 }
 
+.table {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.tableHead {
+  text-align: left;
+}
+
+.tableWin {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.tableRow {
+  margin: 3.2vh 0;
+}
+
 /* Media Queries Start Here */
 
 @media (min-width: 800px) {
@@ -155,5 +171,9 @@
   .ruletaListItem {
     font-size: 18px;
     margin-top: 1.6vh;
+  }
+
+  .winChartDiv {
+    margin-left: 8vw;
   }
 }
