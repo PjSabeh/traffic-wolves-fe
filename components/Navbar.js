@@ -76,7 +76,7 @@ function Navbar() {
             ¿Cómo jugar Blackjack?
           </Menu.Item>
         </Link>
-        <Link href="/guias" passHref>
+        {/* <Link href="/guias" passHref>
           <Menu.Item
             name="Guias"
             onClick={(e) => {
@@ -93,7 +93,7 @@ function Navbar() {
             Caracteristicas de un casino online entretenido
           </Menu.Item>
         </Link>
-
+ */}
         {/* <Menu.Menu position="right">
           <Menu.Item>
             <Input
