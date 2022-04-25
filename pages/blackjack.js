@@ -182,6 +182,147 @@ function blackjack() {
             mundo es la posibilidad de tener todo el realismo del blackjack
             presencial de un casino físico, pero en forma digital.
           </p>
+
+          <h2 className={styles.textHead}>¿Cómo jugar al blackjack en casa?</h2>
+          <p className={styles.textP}>
+            Muchos casinos tienen la opción de jugar en vivo con crupier reales,
+            y esto sin abandonar la comodidad de tu hogar.
+          </p>
+
+          <p className={styles.textP}>
+            Para asegurarte de que sean confiables te recomiendo verificar:
+          </p>
+
+          <ul className={styles.list}>
+            <li className={styles.ruletaListItem}>
+              que cuente con diferentes estilos de blackjack en su versión en
+              vivo
+            </li>
+            <li className={styles.ruletaListItem}>
+              que tenga buena calidad de transmisión para tener una experiencia
+              sin cortes y con alto grado de realismo
+            </li>
+            <li className={styles.ruletaListItem}>
+              Que la transmisión sea compatible con dispositivos móviles.
+            </li>
+          </ul>
+        </div>
+
+        <div className={styles.textContainer}>
+          <h1 className={styles.textHead}>Consejos para jugadores novatos.</h1>
+
+          <p className={styles.textP}>
+            Si eres nuevo jugando al Blackjack es muy recomendable que sigas
+            estos consejos:
+          </p>
+
+          <ul className={styles.list}>
+            <li className={styles.ruletaListItem}>
+              Puedes comenzar jugando de manera gratuita para familiarizarte con
+              las reglas del juego.
+            </li>
+            <li className={styles.ruletaListItem}>
+              Ten definida la cantidad de dinero que quieres gastar.
+            </li>
+            <li className={styles.ruletaListItem}>
+              Analiza bien las reglas del juego para no tener sorpresas una vez
+              iniciada la partida.
+            </li>
+            <li className={styles.ruletaListItem}>
+              Observa bien los valores de las cartas del crupier.
+            </li>
+          </ul>
+
+          <p className={styles.textP}>
+            Este juego es uno de los más solicitados en
+            <strong>casinos online</strong> de todo el mundo. Resulta muy
+            atractivo y atraparte para sus usuarios más adeptos. Si quieres
+            ingresar a jugar y aumentar tus probabilidades de hacer crecer tu
+            dinero, puedes hacer clic aquí y comenzar tu partida.
+          </p>
+        </div>
+
+        <div className={styles.textContainer}>
+          <h1 className={styles.textHead}>
+            Como funciona el Black Jack en vivo 2021
+          </h1>
+
+          <p className={styles.textP}>
+            Si te gusta lo mejor del mundo del casino físico, pero en el mundo
+            digital, el blackjack online es la mejor opción
+          </p>
+          <p className={styles.textP}>
+            El blackjack en vivo es muy confiable en la mayoría de los casinos
+            serios, ya que cuenta con dealers en tiempo real que ayudan a que se
+            puede mantener el realismo y combinar lo mejor de un casino
+            presencial con uno digital.
+          </p>
+        </div>
+
+        <div className={styles.textContainer}>
+          <h1 className={styles.textHead}>
+            ¿Cómo funcionan los pagos en el blackjack en vivo?
+          </h1>
+
+          <p className={styles.textP}>
+            Si en una de las primeras dos manos te toca blackjack con tus
+            primeras dos manos se pagará con una proporción de 3 a 2 y las
+            apuestas de {'"'}seguro{'"'} se pagarán 2 a 1 dependiendo de si el
+            dealer tiene blackjack. Se puede doblar cualquier mano de dos cartas
+            y dividir pares. Cuando se dividen ases.
+          </p>
+
+          <p className={styles.textP}>
+            También existe una opción de apuestas adicionales que incluyen la
+            opción {'"'}apuesta de pie{'"'} para cualquier asiento en la mesa,
+            donde la persona puede esperar el asiento disponible.
+          </p>
+
+          <p className={styles.textP}>
+            Asimismo, se pueden realizar apuestas paralelas que incluyen
+            apuestas de {'"'}21+3{'"'} y {'"'}Perfect Paris{'"'}
+          </p>
+        </div>
+
+        <div className={styles.textContainer}>
+          <h1 className={styles.textHead}>
+            ¿Qué se debe tener en cuenta a la hora de elegir donde jugar
+            blackjack en vivo?
+          </h1>
+
+          <p className={styles.textP}>
+            Hay factores que serán decisivos a la hora de elegir la mejor opción
+            para aquellos que gustan de jugar blackjack.
+          </p>
+
+          <ul className={styles.list}>
+            <li className={styles.ruletaListItem}>
+              <strong>Velocidad en los pagos:</strong> Es importante que el
+              cobro del dinero ganado pueda ser tan sencillo de realizar como
+              fue ingresarlo al sistema. Un retiro de dinero rápido y sin
+              problemas, sin dudas hará un casino digital muy recomendable.
+            </li>
+            <li className={styles.ruletaListItem}>
+              <strong>Protección de fondos:</strong> Otro factor importante es
+              que los datos personales cuenten con una alta seguridad. Esta es
+              una de las inquietudes más grandes que tienen la mayoría de los
+              jugadores que se registran en un casino digital con el fin de
+              ganar algo de dinero. Por ello la mejor opción son los que tienen
+              los mejores sistemas de seguridad de encriptación de datos.
+            </li>
+            <li className={styles.ruletaListItem}>
+              <strong>Distintos tipos de juegos:</strong> Existen muchos tipos
+              diferentes de Blackjack, es recomendable que investigues un poco
+              las reglas de los mismos antes de aventurarte a elegir uno.
+            </li>
+          </ul>
+
+          <p className={styles.textP}>
+            Hay muchas maneras de disfrutar lo mejor del casino y desde la
+            comodidad de tu casa, sin duda, cuando comiences a realizar tus
+            apuestas de esta manera, ya nunca más querrás salir de tu casa a la
+            hora de probar suerte con las apuestas.
+          </p>
         </div>
       </div>
 
