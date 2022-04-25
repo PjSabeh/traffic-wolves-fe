@@ -2,6 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
+import axios from "axios";
+import { useState } from "react/cjs/react.development";
 
 export default function Home() {
   return (
@@ -197,16 +199,19 @@ export default function Home() {
               <input
                 className={styles.formInput}
                 type="text"
+                name="name"
                 placeholder="Nombre"
               />
               <input
                 className={styles.formInput}
                 type="email"
+                name="email"
                 placeholder="Email"
               />
               <input
                 className={styles.formInput}
                 type="number"
+                name="number"
                 placeholder="Movil (opcional)"
               />
               <button className={styles.formBtn} type="submit">

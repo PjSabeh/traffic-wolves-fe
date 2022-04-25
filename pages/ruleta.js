@@ -237,15 +237,18 @@ function ruleta() {
             <input
               className={styles.formInput}
               type="text"
+              name="name"
               placeholder="Nombre"
             />
             <input
               className={styles.formInput}
               type="email"
+              name="email"
               placeholder="Email"
             />
             <input
               className={styles.formInput}
+              name="number"
               type="number"
               placeholder="Movil (opcional)"
             />
