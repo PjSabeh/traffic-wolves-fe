@@ -39,7 +39,7 @@ function Navbar() {
                 : null
             }
           >
-            ¿Cómo Escoger un Casino Online?
+            Tu Casino Online
           </Menu.Item>
         </Link>
         <Link href="/ruleta" passHref>
@@ -56,7 +56,7 @@ function Navbar() {
                 : null
             }
           >
-            ¿Cómo jugar ruleta?
+            Ruleta
           </Menu.Item>
         </Link>
         <Link href="/blackjack" passHref>
@@ -73,7 +73,7 @@ function Navbar() {
                 : null
             }
           >
-            ¿Cómo jugar Blackjack?
+            Blackjack
           </Menu.Item>
         </Link>
         {/* <Link href="/guias" passHref>
